@@ -1,9 +1,8 @@
 # Preprocessors
 
-### Installation
+### Getting started
 
 ```
-> npm install --save-dev sass nodemon live-server npm-run-all
+> npm i
+> npm start
 ```
-
-Add scripts to `package.json`.
