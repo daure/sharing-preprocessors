@@ -117,3 +117,5 @@ fabric.properties
 ### Custom
 
 dist/
+node_modules/
+.idea/
