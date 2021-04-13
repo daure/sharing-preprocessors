@@ -1,0 +1,5 @@
+@for $i from 1 through 4 {
+  .m-#{$i} {
+    margin: 1rem * $i;
+  }
+}

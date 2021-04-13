@@ -1,0 +1,26 @@
+.media {
+  display: flex;
+  gap: 1rem;
+
+  &__image {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  &__heading {
+    color: var(--text);
+    margin: 0;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    .dark-mode & {
+      text-decoration: underline;
+    }
+  }
+
+  &__content {
+    color: var(--text);
+    margin-top: 0.5rem;
+  }
+}
