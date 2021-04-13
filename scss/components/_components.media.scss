@@ -1,4 +1,6 @@
 .media {
+  @include forward;
+
   display: flex;
   gap: 1rem;
 
